@@ -1,0 +1,36 @@
+
+//Cuestionario realizado por David Galván Fontalba
+//Pregunta1: ¿Cuál de las siguientes sentencias NO es una característica de los lenguajes de marcas? {
+=Se codifican mediante archivos binarios
+~Separan el contenido de su presentación
+~Facilitan la interoperabilidad
+~Emplean etiquetas o marcas
+}
+
+//Pregunta2: ¿Cuál es un lenguaje de marcado descriptivo? {
+=XML
+~RTF
+~LaTeX
+~Postcript
+}
+
+//Pregunta3: ¿Qué es un lenguaje de marcas? {
+=Es una forma de codificar un documento que, junto con el texto, incorpora etiquetas que contienen información adicional acerca de la estructura del texto o su presentación.
+~Es una forma de codificar un documento que, junto con el texto, incorpora etiquetas que contienen información adicional acerca del contenido del texto.
+~Es una forma de codificar un documento que, separado del texto, incorpora etiquetas que contienen información adicional acerca de la estructura del texto o su presentación.
+~Es una forma de codificar un documento que, junto con el texto, incorpora etiquetas que permiten realizar funciones aritméticas y variables.
+}
+
+//Pregunta4: ¿Cómo clasificaríamos al lenguaje de marcas HTML? {
+=Todas las respuestas son correctas
+~Lenguajes de marcado de presentación
+~Lenguajes de marcado procedimentales
+~Lenguajes de marcado descriptivos
+}
+
+//Pregunta5: ¿Qué herramienta es fundamental para insertar marcas? {
+=Un editor de texto
+~Un navegador
+~Un procesador de texto
+~Un teclado
+}
