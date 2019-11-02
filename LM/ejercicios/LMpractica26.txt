@@ -1,0 +1,36 @@
+
+//Cuestionario realizado por David Galván Fontalba
+//Pregunta1: ¿Cuál es la principal diferencia entre las redes cliente-servidor y las redes peer-to-peer? {
+= En las primeras, uno hace de cliente y otro de servidor, mientras que en las segundas todos los miembros de la red hacen de cliente y servidor.
+~ En las primeras se interactúa más lento que en las segundas y se pone en riesgo tu seguridad al usarla.
+~ En las primeras, todos los miembros de la red hacen de cliente y de servidor, mientras que en las segundas, uno hace de cliente y otro de servidor.
+~ Todas las opciones son falsas.
+}
+
+//Pregunta2: ¿Qué es la World Wide Web? {
+= Es un servicio de internet.
+~ Es internet.
+~ Es un protocolo para navegar por internet.
+~ Una infraestructura de red, una red de redes.
+}
+
+//Pregunta3: ¿Quién desarrolló las ideas fundamentales que estructuran la web? {
+= Tim Berners-Lee
+~ Alan Turing
+~ Ada Lovelace
+~ Tim Stan Lee
+}
+
+//Pregunta4: ¿Cuál es la diferencia entre W3C y WHATWG? {
+= W3C opta por XHTML, que es más estricto, mientras que WHATWG prefiere HTML, más libre.
+~ W3C opta por HTML, que es más estricto, mientras que WHATWG prefiere XHTML, más libre.
+~ W3C opta por HTML, que es más libre, mientras que WHATWG prefiere XHTML, más estricto.
+~ W3C opta por XHTML, que es más libre, mientras que WHATWG prefiere HTML, más estricto.
+}
+
+//Pregunta5: Los códigos de estado de las respuestas HTTP los podemos clasificar en varios grupos. ¿A cuál pertenece los del grupo 2xx? {
+= Éxito de la petición
+~ Redirección del servidor
+~ Error del cliente
+~ Error del servidor
+}
