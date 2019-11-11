@@ -1,0 +1,28 @@
+p,span {
+  font-size: 16px;
+}
+p span {
+  font-size: 14px;
+}
+header p {
+  font-size: 22px;
+}
+
+p[name] {
+  background: yellow;
+}
+p[name="p1"] {
+  background: red;
+}
+p[name~="p2"] {
+  background: green;
+}
+p[name^="p3"] {
+  background: grey;
+}
+p[name$="p4"] {
+  background: purple;
+}
+p[name*="p5"] {
+  background: orange;
+}
