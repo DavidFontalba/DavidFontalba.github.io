@@ -1,0 +1,15 @@
+#guitarra1 {
+  display: block;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+#guitarra2 {
+  display: block;
+  -webkit-filter: sepia(1);
+  filter: sepia(1);
+}
+#guitarra3 {
+  display: block;
+  -webkit-filter: contrast(20);
+  filter: contrast(20);
+}
