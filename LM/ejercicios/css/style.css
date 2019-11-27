@@ -1,15 +1,33 @@
 #guitarra1 {
+  width: 100px;
   display: block;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
+  animation: myAnimation 2s ease 1s 3 alternate forwards;
 }
+
+@keyframes myAnimation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 #guitarra2 {
+  width: 100px;
   display: block;
   -webkit-filter: sepia(1);
   filter: sepia(1);
 }
+#guitarra2:hover {
+  width: 150px;
+}
+
 #guitarra3 {
+  width: 100px;
   display: block;
   -webkit-filter: contrast(20);
   filter: contrast(20);
+}
+#guitarra3:hover{
+  border: 2px dotted black;
 }
