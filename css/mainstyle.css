@@ -1,0 +1,59 @@
+html {
+  min-height: 100%;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  height: 100vh;
+}
+
+.background{ 
+  height: 100%;
+  background-image: url(fondo.jpg);
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+  height: 5em;
+  text-align: center;
+  font-size: 24px;
+  background-color: white;
+  
+}
+.footer{
+  bottom: 0;
+  position: static;
+  background-color: white;
+  width: 100%;
+}
+.nav{
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+.caja1 {
+  text-align: center;
+  margin: auto;
+  color: white;
+  width: 200px;
+}
+.caja2{
+  color: black;
+  font-size: 16px;
+  background: white;
+  margin: auto;
+  border: solid 2px black;
+  height: 40px;
+  width: 150px;
+}
+.caja2:hover{
+  width: 160px;
+}
