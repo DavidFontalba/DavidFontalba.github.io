@@ -4,29 +4,30 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  min-height: 100%;
+  margin: 0;
 }
+
 body{
   display: flex;
   flex-direction: column;
+  min-height: 100%;
+  margin: 0;
 }
 
-.background{
-  
-  flex-grow: 1;
-}
 .header{
   height: 5em;
   text-align: center;
   font-size: 24px;
   background-color: white;
-  position: static;
+  
 }
 .footer{
-  background-color: white;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
+  bottom: 0;
   position: static;
+  background-color: white;
+  width: 100%;
 }
 .nav{
   background-color: white;
@@ -50,6 +51,5 @@ body{
   width: 150px;
 }
 .caja2:hover{
-  animation: name duration timing-function delay iteration-count direction fill-mode;
   width: 160px;
 }
