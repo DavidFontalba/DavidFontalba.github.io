@@ -1,3 +1,21 @@
+#boxsemitransparente {
+  width: 500px;
+  margin: 0;
+  padding: 50px;
+  border: solid 7px rgb(77, 77, 77);
+  background-image: url(../images/flores.jpg);
+  position: relative;
+}
+#boxsemitransparente2 {
+  text-align: center;
+  background-color: orangered;
+  margin: 0;
+  padding: 100px;
+  border: solid 7px rgb(77, 77, 77);
+  font-size: 22px;
+  opacity: 0.5;
+}
+
 #guitarra1 {
   width: 100px;
   display: block;
