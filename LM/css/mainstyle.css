@@ -46,15 +46,16 @@ body{
   color: white;
   width: 200px;
 }
+
 .caja2{
   color: black;
   font-size: 16px;
   background: white;
+  padding: 10px;
   margin: auto;
   border: solid 2px black;
-  height: 40px;
   width: 150px;
 }
-.caja2:hover{
+.caja2:hover, .cajaDesplegable:hover{
   width: 160px;
 }
