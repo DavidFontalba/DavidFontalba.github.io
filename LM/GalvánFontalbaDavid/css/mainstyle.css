@@ -1,0 +1,169 @@
+html {
+
+  min-height: 100%;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  height: 100vh;
+}
+
+.background{ 
+  height: 100%;
+  background-image: url(fondo.jpg);
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header{
+  text-shadow: 3px 2px 2px grey;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 24px;
+  background-color: black;
+  color: blue;
+  
+}
+.footer{
+  text-shadow: 1px 1px 1px grey;
+  bottom: 0;
+  position: static;
+  background-color: black;
+  color: blue;
+  width: 100%;
+}
+.nav{
+  padding: 0;
+  margin: 0;
+  text-shadow: 1px 1px 1px grey;
+  background-color: black;
+  text-align: center;
+  font-size: 20px;
+  color: blue;
+}
+
+.menu{
+  color: blue;
+  font-size: 16px;
+  background-color: black;
+  margin: auto;
+  width: 150px;
+}
+.menu:hover{
+  background-color: blue;
+  color: black;
+}
+
+/* Ejercicio 1 */
+#boxsemitransparente {
+  width: 800px;
+  margin: 10px;
+  padding: 50px;
+  border: solid 5px black;
+  background-image: url(klematis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#boxsemitransparente2 {
+  text-align: center;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 100px;
+  border: solid 5px black;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+/* Ejercicio 2 */
+
+#cajaA{
+  float: left;
+  width: 100px;
+  padding: 50px;
+  border: solid 2px black;
+  color: white;
+  background-image: url(klematis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  filter: blur(10px);
+}
+
+#cajaB{
+  width: 100px;
+  padding: 50px;
+  border: solid 2px black;
+  color: black;
+  background-color: white;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cajaA2{
+  float: right;
+  width: 100px;
+  padding: 50px;
+  border: solid 2px black;
+  color: white;
+  background-image: url(klematis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  filter: blur(10px);
+}
+#cajaA:hover, #cajaA2:hover {
+  filter: none;
+}
+
+/* Ejercicio 3 */
+#cajon3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border: solid 2px black;
+  background-color: white;
+  position: relative;
+}
+#texto {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 300px;
+  background-color: yellow;
+}
+
+/* Ejercicio 4 */
+#tabla {
+  margin: 0;
+  padding: 0;
+}
+th:nth-child(odd) {
+  color: whitesmoke;
+  background-color: blue;
+}
+th:nth-child(even) {
+  color: whitesmoke;
+  background-color: green;
+}
+td {
+  background-color: whitesmoke;
+}
+td:hover {
+  background-color: green;
+}

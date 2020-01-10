@@ -1,0 +1,18 @@
+body {
+  width: 500px;
+  margin: 0;
+}
+p {
+  background-color: aqua;
+  border: solid 3px blue;
+  margin: 10px;
+  padding: 10px;
+}
+span {
+  background-color: red;
+  border: solid 1px black;
+}
+.positioned {
+  position: relative;
+  background-color: yellow;
+}
