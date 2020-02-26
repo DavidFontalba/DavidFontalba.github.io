@@ -44,11 +44,22 @@ body{
   color: black;
 }
 .caja1 {
-  text-shadow: 1px 1px 1px grey;
+  text-shadow: 2px 2px 2px rgb(33, 33, 33);
   text-align: center;
-  margin: auto;
+
   color: white;
-  width: 200px;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  
+}
+.caja1 header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.xml, .xhtml, .act {
+  text-shadow: 1px 1px 1px grey;
 }
 
 .caja2{
@@ -62,4 +73,13 @@ body{
 }
 .caja2:hover{
   width: 160px;
+}
+
+.xml {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.xhtml {
+  grid-column-start: 2;
+  grid-column-end: 3;
 }

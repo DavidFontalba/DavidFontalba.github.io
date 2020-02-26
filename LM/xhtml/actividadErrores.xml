@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores[
+    <!ELEMENT errores (error*)>
+    <!ELEMENT error (codigo,descripcion,actividad,fecha_hora,nlinea)>
+    <!ATTLIST error id ID #REQUIRED>
+    <!ATTLIST error tipo (AVISO|WARNING|FATAL) "AVISO">
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT actividad (#PCDATA)>
+    <!ELEMENT fecha_hora (#PCDATA)>
+    <!ELEMENT nlinea (#PCDATA)>
+]>
+
+<errores>
+    <error id="n1" tipo="WARNING">
+
+        <codigo>
+        n1
+        </codigo>
+
+        <descripcion>
+        Error at line 15, column 13: element 'pais' is not allowed for content model '(nombre,calle,ciudad,pais,codigo)'
+        </descripcion>
+
+        <actividad>
+        ejemplo13
+        </actividad>
+
+        <fecha_hora>
+        17/02/2020 09:38 
+        </fecha_hora>
+
+        <nlinea>
+        15
+        </nlinea>
+    </error>
+
+    <error id="n2" tipo="FATAL">
+
+        <codigo>
+        n2
+        </codigo>
+
+        <descripcion>
+        Error at line 9, column 10: root element differs from that declared in DOCTYPE
+        </descripcion>
+
+        <actividad>
+        ejemplo14
+        </actividad>
+
+        <fecha_hora>
+        17/02/2020 09:47
+        </fecha_hora>
+
+        <nlinea>
+        9
+        </nlinea>
+    </error>
+
+    <error id="n3" tipo="WARNING">
+
+        <codigo>
+        n3
+        </codigo>
+
+        <descripcion>
+        Error at line 18, column 9: no declaration found for element 'tw'
+        </descripcion>
+
+        <actividad>
+        ejemplo14
+        </actividad>
+
+        <fecha_hora>
+        17/02/2020 09:51
+        </fecha_hora>
+
+        <nlinea>
+        18
+        </nlinea>
+    </error>
+
+    <error id="n4" tipo="FATAL">
+
+        <codigo>
+        n4
+        </codigo>
+
+        <descripcion>
+        FatalError at line 11, column 3: invalid document structure
+        </descripcion>
+
+        <actividad>
+        ejemplo15
+        </actividad>
+
+        <fecha_hora>
+        17/02/2020 09:59
+        </fecha_hora>
+
+        <nlinea>
+        11
+        </nlinea>
+    </error>
+</errores>

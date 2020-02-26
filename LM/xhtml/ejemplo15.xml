@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE relacion[
+    <!ELEMENT relacion (persona)+>
+    <!ELEMENT persona (nombre,email*,parentesco?)+>
+    <!ATTLIST persona carnet ID #REQUIRED>
+    <!ATTLIST persona sexo (hombre|mujer) #IMPLIED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT parentesco EMPTY>
+    <!ATTLIST parentesco tutor-legal IDREFS #IMPLIED >
+    <!ATTLIST parentesco hermano-a IDREFS #IMPLIED>
+]>
+<relacion>
+
+  <persona carnet="n1" sexo="hombre">
+    
+    <nombre>Elti Burón</nombre>
+    <email>elti@natgeo.org</email>
+    <parentesco hermano-a="n2" tutor-legal="n2"></parentesco>
+    
+  </persona>
+
+  <persona carnet="n2" sexo="hombre">
+    
+    <nombre>Tim Burón</nombre>
+    <email>timmy@yahoo.es</email>
+    <parentesco hermano-a="n1" tutor-legal="n1"></parentesco>
+    
+  </persona>
+  
+</relacion>
