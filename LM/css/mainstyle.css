@@ -49,17 +49,11 @@ body{
 
   color: white;
   width: 100%;
-
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
   
 }
 .caja1 header {
   grid-column-start: 1;
   grid-column-end: 4;
-}
-.xml, .xhtml, .act {
-  text-shadow: 1px 1px 1px grey;
 }
 
 .caja2{
@@ -70,16 +64,8 @@ body{
   margin: auto;
   border: solid 2px black;
   width: 150px;
+  text-shadow: 1px 1px 1px grey;
 }
 .caja2:hover{
   width: 160px;
-}
-
-.xml {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-.xhtml {
-  grid-column-start: 2;
-  grid-column-end: 3;
 }
