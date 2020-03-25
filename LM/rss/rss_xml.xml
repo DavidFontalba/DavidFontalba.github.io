@@ -4,23 +4,54 @@
         <title>LM - XML - David Galván Fontalba</title>
         <item>
             <title>16 de marzo. Paises XML</title>
-            <link>file:///home/david/davidfontalba.github.io/LM/ejercicios%2016mar/paises.xml</link>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2016mar/paises.xml</link>
             <description>16 de marzo. Ejercicios guiados durante la cuarentena.</description>
         </item>
         <item>
             <title>16 de marzo. Paises XSD</title>
-            <link>file:///home/david/davidfontalba.github.io/LM/ejercicios%2016mar/paises.xsd</link>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2016mar/paises.xsd</link>
             <description>16 de marzo. Ejercicios guiados durante la cuarentena.</description>
         </item>
         <item>
             <title>16 de marzo. Personas XML</title>
-            <link>file:///home/david/davidfontalba.github.io/LM/ejercicios%2016mar/personas.xml</link>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2016mar/personas.xml</link>
             <description>16 de marzo. Ejercicios guiados durante la cuarentena.</description>
         </item>
         <item>
             <title>16 de marzo. Personas XSD</title>
-            <link>file:///home/david/davidfontalba.github.io/LM/ejercicios%2016mar/personas.xsd</link>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2016mar/personas.xsd</link>
             <description>16 de marzo. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+
+        <item>
+            <title>18 de marzo. Alumnos XML</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2018mar/alumnos.xml</link>
+            <description>18 de marzo. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>18 de marzo. Alumnos XSD</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2016mar/alumnos.xsd</link>
+            <description>18 de marzo. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>18 de marzo. Personas_v1 XML</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2016mar/personas_v1.xml</link>
+            <description>18 de marzo. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>18 de marzo. Personas_v1 XSD</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2016mar/personas_v1.xsd</link>
+            <description>18 de marzo. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+                <item>
+            <title>18 de marzo. Personas_v2 XML</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2016mar/personas_v2.xml</link>
+            <description>18 de marzo. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>18 de marzo. Personas_v2 XSD</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2016mar/personas_v2.xsd</link>
+            <description>18 de marzo. Ejercicios guiados durante la cuarentena.</description>
         </item>
     </channel>
 </rss>
