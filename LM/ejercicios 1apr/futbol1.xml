@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resultados [
+<!ELEMENT resultados (partido*)>
+<!ELEMENT partido EMPTY>
+<!ATTLIST partido id ID #REQUIRED>
+<!ATTLIST partido nombreLocal CDATA #REQUIRED>
+<!ATTLIST partido golesLocal CDATA #REQUIRED>
+<!ATTLIST partido nombreVisitante CDATA #REQUIRED>
+<!ATTLIST partido golesVisitante CDATA #REQUIRED>
+]>
+
+<resultados>
+  <partido id="a" nombreLocal="Nombre" golesLocal="1" nombreVisitante="Nombre2" golesVisitante="2"/>
+  <partido id="b" nombreLocal="Nombre4" golesLocal="4" nombreVisitante="Nombre3" golesVisitante="1"/>
+  <partido id="c" nombreLocal="Nombrea" golesLocal="2" nombreVisitante="Nombre5" golesVisitante="2"/>
+</resultados>
