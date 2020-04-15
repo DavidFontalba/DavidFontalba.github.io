@@ -53,5 +53,30 @@
             <link>https://davidfontalba.github.io/LM/ejercicios%2016mar/personas_v2.xsd</link>
             <description>18 de marzo. Ejercicios guiados durante la cuarentena.</description>
         </item>
+        <item>
+            <title>1 de abril. albumesMortadelo.xml</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%1apr/albumesMortadelo.xml</link>
+            <description>1 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>1 de abril. bingo.xml</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%1apr/bingo.xml</link>
+            <description>1 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>1 de abril. bingo.xsd</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%1apr/bingo.xsd</link>
+            <description>1 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>1 de abril. futbol1.xml</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%1apr/futbol1.xml</link>
+            <description>1 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>13 de abril. biblioteca.xml</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%13apr/biblioteca.xml</link>
+            <description>13 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
     </channel>
 </rss>
