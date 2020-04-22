@@ -1,0 +1,126 @@
+﻿bookstore.xml
+
+Ejercicio 1 - Seleccionar todos los nodos de títulos. - /bookstore/book/title
+<title lang="en">Everyday Italian</title>
+<title lang="en">Harry Potter</title>
+<title lang="en">XQuery Kick Start</title>
+<title lang="en">Learning XML</title>
+
+Ejercicio 2 - Seleccionar el título del primer libro. - /bookstore/book[1]/title
+<title lang="en">Everyday Italian</title>
+
+Ejercicio 3 - Selecciona todos los precios. - /bookstore/book/price[text()]
+<price>30.00</price>
+<price>29.99</price>
+<price>49.99</price>
+<price>39.95</price>
+
+Ejercicio 4 -  Precio de los libros que valen más de 35 - /bookstore/book[price>35]/price
+
+<price>49.99</price>
+<price>39.95</price>
+
+Ejercicio 5 -  Titulo de los libros que valen más de 35 /bookstore/book[price>35]/title
+
+<title lang="en">XQuery Kick Start</title>
+<title lang="en">Learning XML</title>
+
+Ejercicio 5 sin etiquetas. /bookstore/book[price>35]/title/text()
+
+XQuery Kick Start
+Learning XML
+
+--------------------------
+employees.xml
+Ejercicio 1 - Nodo documento -  /
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:foo="http://www.foo.org/" xmlns:bar="http://www.bar.org/">
+
+Ejercicio 2 -  Selecciona todos los elementos 'employee' que son hijos directos del elemento 'employees' -  /root/employees/employee
+<employee id="1">Johnny Dapp</employee>
+<employee id="2">Al Pacino</employee>
+<employee id="3">Robert De Niro</employee>
+<employee id="4">Kevin Spacey</employee>
+<employee id="5">Denzel Washington</employee>
+
+Ejercicio 3 - Selecciona todos elementos 'company' elements independientemente de su posición en el documento. - //company
+<company id="6">Tata Consultancy Services</company>
+<company id="7">Wipro</company>
+<company id="8">Infosys</company>
+<company id="9">Microsoft</company>
+<company id="10">IBM</company>
+<company id="11">Apple</company>
+<company id="12">Oracle</company>
+
+Ejercicio 4. Selecciona los atributos 'id' de los elementos 'company' independientemente de su posición en el documento. - //company/@id
+ id="6"
+ id="7"
+ id="8"
+ id="9"
+ id="10"
+ id="11"
+ id="12"
+
+Ejercicio 5. - Selecciona el valor del primer elemento ‘employee' -  //employee[1]
+<employee id="1">Johnny Dapp</employee>
+
+Ejercicio 6. - Selecciona el último elemento 'employee' - //employee[last()]
+<employee id="5">Denzel Washington</employee>
+
+Ejercicio 7. - Selecciona el primer y segundo elemento 'employee', utilizando su posición. -  //employee[position()<=2]
+<employee id="1">Johnny Dapp</employee>
+<employee id="2">Al Pacino</employee>
+
+Ejercicio 8.- Selecciona todos los elementos 'employee' que tienen el atributo 'id' - //employee[@id]
+  <employees>
+    <employee id="1">Johnny Dapp</employee>
+    <employee id="2">Al Pacino</employee>
+    <employee id="3">Robert De Niro</employee>
+    <employee id="4">Kevin Spacey</employee>
+    <employee id="5">Denzel Washington</employee>
+  </employees>
+  <foo:companies>
+    <foo:company id="6">Tata Consultancy Services</foo:company>
+    <foo:company id="7">Wipro</foo:company>
+    <foo:company id="8">Infosys</foo:company>
+    <foo:company id="9">Microsoft</foo:company>
+    <foo:company id="10">IBM</foo:company>
+    <foo:company id="11">Apple</foo:company>
+    <foo:company id="12">Oracle</foo:company>
+  </foo:companies>
+</root>
+
+<employee id="1">Johnny Dapp</employee>
+<employee id="2">Al Pacino</employee>
+<employee id="3">Robert De Niro</employee>
+<employee id="4">Kevin Spacey</employee>
+<employee id="5">Denzel Washington</employee>
+
+Ejercicio 9. -  Selecciona el elemento 'employee' cuyo valor de atributo ‘id’ sea 3. - //employee[@id=3]
+<employee id="3">Robert De Niro</employee>
+
+Ejercicio 10.- Selecciona todos los hijos del nodo 'companies' - //companies/*
+<company id="6">Tata Consultancy Services</company>
+<company id="7">Wipro</company>
+<company id="8">Infosys</company>
+<company id="9">Microsoft</company>
+<company id="10">IBM</company>
+<company id="11">Apple</company>
+<company id="12">Oracle</company>
+
+Ejercicio 11.- Selecciona todos los elementos 'employee' y 'company' - //company | //employee
+<employee id="1">Johnny Dapp</employee>
+<employee id="2">Al Pacino</employee>
+<employee id="3">Robert De Niro</employee>
+<employee id="4">Kevin Spacey</employee>
+<employee id="5">Denzel Washington</employee>
+<company id="6">Tata Consultancy Services</company>
+<company id="7">Wipro</company>
+<company id="8">Infosys</company>
+<company id="9">Microsoft</company>
+<company id="10">IBM</company>
+<company id="11">Apple</company>
+<company id="12">Oracle</company>
+
+Ejercicio 12.- Selecciona el número de elementos 'company' - count(//company)
+7
