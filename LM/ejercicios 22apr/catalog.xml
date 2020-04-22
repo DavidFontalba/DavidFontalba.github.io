@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<?xml-stylesheet type="text/xsl" href="choose.xsl"?>
 <catalog xmlns:xsi="http://www.w3.org/2001/">
  <cd>
  <title>Empire Burlesque</title>
  <artist>Bob Dylan</artist>
  <country>USA</country>
  <company>Columbia</company>
- <price>10.90</price>
+ <price>20.90</price>
  <year>1985</year>
  </cd>
  <cd>
@@ -14,7 +14,7 @@
  <artist>Bonnie Tyler</artist>
  <country>UK</country>
  <company>CBS Records</company>
- <price>9.90</price>
+ <price>40.90</price>
  <year>1988</year>
  </cd>
  <cd>
@@ -22,7 +22,7 @@
  <artist>Dolly Parton</artist>
  <country>USA</country>
  <company>RCA</company>
- <price>9.90</price>
+ <price>11.90</price>
  <year>1982</year>
  </cd>
  <cd>
