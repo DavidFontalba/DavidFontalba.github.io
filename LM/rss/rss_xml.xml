@@ -78,5 +78,50 @@
             <link>https://davidfontalba.github.io/LM/ejercicios13apr/biblioteca.xml</link>
             <description>13 de abril. Ejercicios guiados durante la cuarentena.</description>
         </item>
+        <item>
+            <title>15 de abril. bookstore.xml</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2015apr/bookstore.xml</link>
+            <description>15 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>15 de abril. employees.xml</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2015apr/employees.xml</link>
+            <description>15 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>15 de abril. ResultadosXPath</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2015apr/ResultadosXPath.txt</link>
+            <description>15 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>20 de abril. catalog.xml</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2020apr/catalog.xml</link>
+            <description>20 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>20 de abril. catalog.xsl</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2020apr/catalog.xsl</link>
+            <description>20 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>22 de abril. bobDylan.xsl</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2022apr/bobDylan.xsl</link>
+            <description>22 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>22 de abril. choose.xsl</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2022apr/choose.xsl</link>
+            <description>22 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>22 de abril. ordenArtista.xsl</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2022apr/ordenArtista.xsl</link>
+            <description>22 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
+        <item>
+            <title>22 de abril. precioMas10.xsl</title>
+            <link>https://davidfontalba.github.io/LM/ejercicios%2022apr/precioMas10.xsl</link>
+            <description>22 de abril. Ejercicios guiados durante la cuarentena.</description>
+        </item>
     </channel>
 </rss>
