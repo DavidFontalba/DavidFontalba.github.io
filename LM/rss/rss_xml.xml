@@ -149,24 +149,10 @@
             <description>4 de mayo. Ejercicios guiados durante la cuarentena.</description>
         </item>
         <item>
-            <title>6 de mayo. 1al5.xq</title>
-            <link>https://davidfontalba.github.io/LM/ej6may/1al5.xq</link>
+            <title>6 de mayo. consultas.xq</title>
+            <link>https://davidfontalba.github.io/LM/ej6may/consultas.xq</link>
             <description>6 de mayo. Ejercicios guiados durante la cuarentena.</description>
         </item>
-        <item>
-            <title>6 de mayo. categorianiños.xq</title>
-            <link>https://davidfontalba.github.io/LM/ej6may/categorianiños.xq</link>
-            <description>6 de mayo. Ejercicios guiados durante la cuarentena.</description>
-        </item>
-        <item>
-            <title>6 de mayo. let.xq</title>
-            <link>https://davidfontalba.github.io/LM/ej6may/let.xq</link>
-            <description>6 de mayo. Ejercicios guiados durante la cuarentena.</description>
-        </item>
-        <item>
-            <title>6 de mayo. librosindice.xq</title>
-            <link>https://davidfontalba.github.io/LM/ej6may/librosindice.xq</link>
-            <description>6 de mayo. Ejercicios guiados durante la cuarentena.</description>
-        </item>
+      
     </channel>
 </rss>
