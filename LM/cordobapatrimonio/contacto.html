@@ -1,68 +1,114 @@
 <!DOCTYPE html>
+    <!-- Insertamos el archivo CSS compilado y comprimido -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Theme opcional -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 <html lang="es">
     <head>
         <link rel="icon" href="images/favicon.png" alt="Logo de Córdoba Ciudad Patrimonio">
         <title>Turismo Córdoba</title>
         <meta charset="utf-8">
-        <meta name="description" content="Contacto">
-        <meta name="keywords" content="Formulario">
+        <meta name="description" content="Córdoba ciudad patrimonio - La Mezquita">
+        <meta name="keywords" content="Turismo, patrimonio, viajes, mezquita">
         <!--link rel="stylesheet" href="estilos.css"-->
     </head>
     <body>
-    <header>
-        <h1 id="top">Córdoba Ciudad Patrimonio</h1>
-    </header>
-    <nav>
-        <a href="index.html">Inicio </a>|
-        <a href="mezquita.html">La Mezquita </a>|
-        <!-- <a href="cascohistorico.html">Casco Histórico </a>| -->
-        <!-- <a href="patios.html">Los Patios </a>| -->
-        <!-- <a href="medinaazahara.html">Medina Azahara </a>| -->
-        Contacto |
-    </nav>
-    <main>
-        <section>
-            <article>
-                <header>
-                   <h2>Contacto</h2>
-                </header>
-                <body>
+    <div class="container">
+        <header class="page-header">
+            <ul class="nav nav-pills pull-right">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="mezquita.html">La Mezquita </a></li>
+                <li> <a href="cascohistorico.html">Casco Histórico </a></li>
+                <li> <a href="patios.html">Los Patios </a></li>
+                <li> <a href="medinaazahara.html">Medina Azahara </a></li>
+                <li class="active"><a href="contacto.html">Contacto </a></li>
+            </ul>
+            <h1 id="top">Córdoba Ciudad Patrimonio</h1>
+        </header>
+
+        <div class="jumbotron">
+            <div class="row">
+                <h2>Contacto</h2>
+                <div class="col-lg-4">
+                    
                     <form name="formulario" method="get" action="mailto">
-                    <p><label>Nombre: <input type="text" name="nombre" maxlength="15"></label></p>
-                    <p><label>Edad: <input type="number" name="edad"></label></p>
-                    <p><label>Correo: <input type="email" name="correo"></label></p>
-                    <p><label>Teléfono: <input type="tel" name="nombre" maxlength="9"></label></p>
-                    <p><label for="listado">País:</label>
-                        <select name="paises" id="listado">
-                            <option value="1">España</option>
-                            <option value="2">Portugal</option>
-                            <option value="3">Francia</option>
-                            <option value="4">Inglaterra</option>
-                            <option value="5">Rusia</option>
-                        </select>
-                    </p>
-                    <p><label>Provincia o región: <input type="text" name="provincia"></label></p>
-                    <p><input type="submit" name="Enviar"></p>
-                    </form>
-                </body>
-            </article>
-        </section>
-        <aside>
-            Agenda
-            Publicidad
-            <p>·<b>Enlaces de interés</b></p>
-            <p> · <a href="https://www.turismodecordoba.org/" target="_blank">Turismo de Córdoba </a></p>
-            <p>·<b>Descargas</b></p>
-            <p> · <a href="images/cordobamapa.jpg" target="_blank" download="Mapa de Córdoba">Mapa De Córdoba</a></p>
-        </aside>
-    </main>
-    <footer>
-        <address>Córdoba, Spain</addres>
-        <p>David Galván Fontalba</p>
-        <p><img src="images/twitter-logo-4.png" alt="Logo de Twitter" title="Logo de Twitter" width="20" height="20"> <a href="https://www.twitter.com/FontalbaDavid/" target="_blank">@FontalbaDavid</a></p>
-        <p><small>&copy; Todos los derechos...</small></p>
-        <p><a href="#top"><img src="images/up.png" alt="Flecha hacia arriba" title="Subir" align="right" width="20" height="30"></a></p>
-    </footer>
+                        <p><label>Nombre: <input type="text" name="nombre" maxlength="15"></label></p>
+                        <p><label>Edad: <input type="number" name="edad"></label></p>
+                        <p><label>Correo: <input type="email" name="correo"></label></p>
+                        <p><input type="submit" name="Enviar"></p>
+                </div>
+                <div class="col-lg-4">
+                        <p><label>Teléfono: <input type="tel" name="nombre" maxlength="9"></label></p>
+                        <p><label for="listado">País:</label>
+                            <select name="paises" id="listado">
+                                <option value="1">España</option>
+                                <option value="2">Portugal</option>
+                                <option value="3">Francia</option>
+                                <option value="4">Inglaterra</option>
+                                <option value="5">Rusia</option>
+                            </select>
+                        </p>
+                        <p><label>Provincia o región: <input type="text" name="provincia"></label></p>
+                        
+                    </form>  
+                </div>
+                
+
+            </div>
+
+        </div>
+        <div class="jumbotron">
+
+
+          <div class="row">
+            <div class="col-lg-4">
+              <h2>Agenda</h2>
+              <p>Eventos próximos en la ciudad.</p>
+              <p><a class="btn btn-primary" href="#" target="_blank" role="button">Titulo del evento &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+              <h2>Enlaces de interés</h2>
+              <p>Quizás puedan serle de utilidad los siguientes contenidos.</p>
+              <p><a class="btn btn-primary" href="https://www.turismodecordoba.org/" target="_blank" role="button">Turismo de Córdoba &raquo;</a></p>
+           </div>
+            <div class="col-lg-4">
+              <h2>Descargas</h2>
+              <p><a class="btn btn-primary" href="images/cordobamapa.jpg" target="_blank" download="Mapa de Córdoba" role="button">Mapa de Córdoba &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <p>David Galván Fontalba</p>
+                    <address>Córdoba, Spain</addres>
+                    <p><small>&copy; Todos los derechos...</small></p>
+                </div>
+
+                <div class="col-lg-4">
+                    <p><img src="images/twitter-logo-4.png" alt="Logo de Twitter" title="Logo de Twitter" width="20" height="20"> <a href="https://www.twitter.com/FontalbaDavid/" target="_blank">@FontalbaDavid</a></p>
+                </div>
+
+                <div class="col-lg-4">
+                        <p>Publicitario 1</p>
+                        <p>Publicitario 2</p>
+                        <p>Publicitario 3</p>
+
+               </div>
+            </div>
+            
+            
+            <a href="#top" class="btn btn-warning btn-sm btn-block">
+                <img src="images/up.png" alt="Flecha hacia arriba" title="Subir"/ width="7" height="12">
+            </a>
+        </footer>
+    </div>
+
+    <!--Insertamos jQuery dependencia de Bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--Insertamos el archivo JS compilado y comprimido -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </body>
 </html>
-
