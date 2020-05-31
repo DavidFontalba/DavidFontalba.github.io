@@ -153,6 +153,18 @@
             <link>https://davidfontalba.github.io/LM/ej6may/consultas.xq</link>
             <description>6 de mayo. Ejercicios guiados durante la cuarentena.</description>
         </item>
+
+        <item>
+            <title>Odoo. Instalación y configuración.</title>
+            <link>https://davidfontalba.github.io/LM/ra7/LMGalvánFontalbaDavid-Odoo-RA7.pdf</link>
+            <description>Documentamos la instalación y configuración del software Odoo para Ubuntu apoyándonos en capturas
+            de pantalla sobre el proceso.</description>
+        </item>
+        <item>
+            <title>Información ERP</title>
+            <link>https://davidfontalba.github.io/LM/erp/index.html</link>
+            <description>Página web básica con información sobre los ERP (Enterprise Resource Planning)</description>
+        </item>
       
     </channel>
 </rss>
